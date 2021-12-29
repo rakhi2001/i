@@ -1,0 +1,111 @@
+.Sidebox{
+    /* position: absolute; */
+    /* left: 92.22%;
+    right: -3.26%;
+    top: 6.98%;
+    bottom: 60.23%; 
+
+    position: absolute;
+
+    /* top: 50%;
+    -webkit-transform: translateY(-50%),translateX(-50%);
+    -ms-transform: translateY(-50%),translateX(-50%);
+    transform: translateY(-50%),translateX(-50%); */
+
+    
+    /*background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(133, 133, 133, 0.25);     */
+
+    /* position: absolute;
+    left: 92.22%;
+    right: -3.26%;
+    top: 6.98%;
+    bottom: 84.23%; */
+/* 
+    position: absolute;
+    top: 16.8%;
+    right:10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+    z-index: 200;
+    border-radius: 29px;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    right: -19px;
+    top:190px;
+    width: 100px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 8px rgba(133, 133, 133, 0.25);
+}
+
+/* .insta{
+
+    position: absolute;
+    left: 93.33%;
+    right: -0.79%;
+    top: 7.61%;
+    bottom: 90%;
+    z-index: 1;
+    filter: drop-shadow(0px 4px 4px rgba(192, 192, 192, 0.25));
+}
+
+.face{
+
+    position: absolute;
+    left: 93.34%;
+    right: -0.8%;
+    top: 10.25%;
+    bottom: 80.35%;
+
+    filter: drop-shadow(0px 4px 4px rgba(192, 192, 192, 0.25));
+}
+
+.twit{
+    position: absolute;
+left: 93.78%;
+right: -1.24%;
+top: 13.21%;
+bottom: 84.4%;
+z-index: 1;
+
+filter: drop-shadow(0px 4px 4px rgba(192, 192, 192, 0.25));
+} */
+
+.Sidebox div img{
+    float: left;
+    margin: 2px;
+    margin-right: 10px;
+    width: 98.33;
+    height: 107.33;
+}
+
+.Sidebox div{
+    list-style-type:none;
+    height:49px;
+    padding:0px;
+    margin:0px 0px 0px 0px;
+}
+
+@media (max-width:768px){
+    .insta,.twit,.face{width:90px;height: 90px;}
+}
+
+@media (max-width:525px){
+    .insta,.twit,.face{width:70px;height: 70px;}
+    /* .Sidebox{right: -140px;}*/
+    .Sidebox  {width: 80px;} 
+}
+/*
+@media (max-width:560px){
+    .Sidebox{right:20%}
+}
+
+@media (max-width:420px){
+    .Sidebox{right:25%}
+}
+@media (max-width:340px){
+    .Sidebox{right:29%}
+} */

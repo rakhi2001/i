@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+.Navbar__whole{
+    height: 4.16%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar__logo{
+    
+    object-fit: contain;
+    position: absolute;
+    width: 9.9%;
+    height: 9.6%;
+    left: 6.1%;
+    top: 1.87%;
+}
+
+.get__involved{
+    position: absolute;
+    width: 7.63%;
+    height: 1.38%;
+    left: 32.616%;
+    top: 6.017%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.activities{
+    position: absolute;
+    width: 5.27%;
+    height: 1.17%;
+    left: 46.7%;
+    top: 6.017%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: #000000;
+
+}
+
+.contact{
+    position: absolute;
+    width: 4.92%;
+    height: 1.17%;
+    left: 60.2%;
+    top: 6.017%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    color: #000000;
+}
+
+.horizontal__bar{
+    position: absolute;
+    width: 4px;
+    height: 40px;
+    left: 71.2%;
+    top: 4.817%;
+
+    background: #212D06;
+}
+
+.donate__now{
+    position: absolute;
+    width: 13.81%;
+    height: 48px;
+    left: 83.3%;
+    top: 4.017%;
+
+    border: none;
+    background: #E9EDE1;
+    border-radius: 29px;
+    /* font-weight: 500; */
+
+    font-family: 'Montserrat','sans-sherrif';
+}
+
+@media (max-width: 700px) {
+    .activities { font-size: 40%; line-height: 9px; }
+    .get__involved ,.contact{ font-size: 40%; line-height: 9px; }
+    .horizontal__bar{width: 2px; height: 20px;}
+}
+
+@media (max-width:850px){
+    .donate__now {width:18%;left:80%; font-size: 7px; border-radius: 17px; top: 3%;}
+}
